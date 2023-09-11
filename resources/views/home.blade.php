@@ -2,16 +2,17 @@
 
 @section('page-title', 'Homepage')
 
-{{-- @section('page-title')
-Homepage
-@endsection --}}
-
 @section('main-content')
+
 <h1>
     Homepage
 </h1>
+<div class ="container">
+    @dd($comics)
+    {{ $comics }}
 
-<div class="gatto"></div>
 
-<img src="{{ Vite::asset('resources/img/gatto.jpg') }}" class="img-fluid" alt="">
+</div>
+
+{{-- <img src="{{ Vite::asset('resources/img/img.jpg') }}"  alt=""> --}}
 @endsection
