@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>@yield('page-title') | Primi passi</title>
 
+
         @vite('resources/js/app.js')
 
         @include('partials.head-imports')
